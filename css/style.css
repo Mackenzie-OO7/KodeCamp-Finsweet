@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.rightside {
+    display: flex;
+    align-items: center;
+}
+
+.rightside ul {
+    list-style: none;
+    display: flex;
+}
+
+.rightside ul li {
+    margin-right: 20px;
+}
+
+.rightside ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.rightside .navigation {
+    border-right: 2px solid #ccc;
+}
+.roadassistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.roadassistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+#herosection .textsection{
+    width: 45%;
+} 
+
+#herosection .imagesection {
+    width: 55%;
+}
+
+#herosection .imagesection {
+   min-height: 68vh;  
+   background-image: url(https://res.cloudinary.com/muuba/image/upload/v1650391219/Header_Image_fzqpea.png);
+    background-size: cover;
+    background-position: center; 
+}
+
+#herosection, #quotesection {
+    padding: 80px 0;
+}
+
+.textsection .imagebox {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textsection h1 {
+    font-size: 64px;
+}
+
+.orangebtn {
+    font-size: 18px;
+    margin-top: 35px;  
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+
+.timesection {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.textsection .timetext {
+    width: 95%;
+}
+.timesection img {
+    width: 100%;
+}
+
+.lightgrey {
+    color: #939191;
+}
+
+#quotesection {
+    background: #E2E6E9;
+}
+
+#quotesection .leftsection, #quotesection .rightformsection {
+    width: 50%;
+}
+
+#quotesection ul {
+    list-style: none;
+}
+
+#quotesection ul li {
+    margin-bottom: 20px;
+}
+
+#quotesection .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quotesection .leftsection .imagebox {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quotesection .leftsection .imagebox img {
+    width: 100%;
+}
+
+#quotesection .leftsection .textbox {
+    width: 50%;
+}
+
+#quotesection .leftsection .textbox h5 {
+  margin-bottom: 5px;  
+  font-size: 24px;
+}
+
+.arrow {
+  color: blue;
+}
+
+#quotesection .rightformsection h3{
+    font-size: 48px;
+}
+
+#quotesection .rightformsection input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px; 
+}
+
+#quotesection .leftsection .arrowspan {
+ display: flex;
+ align-items: center; 
+}
+
+.flex1 {
+display: flex;
+justify-content: space-evenly;
+  }
+.leftprocess {
+width: 40%;
+}
+
+ .rightprocess {
+width: 45%;
+margin-left: 60px;
+}
+
+#Bookingsection ul li{
+  list-style:none;
+  margin-bottom:20pX;
+}
+
+.leftprocess h2 {
+margin-bottom: 30px;
+font-size: 58px;
+}
+
+.leftprocess p {
+font-size: 16px;
+width: 74%;
+  }
+
+.rightprocess .textbox {
+width: 50%;
+margin-bottom: 10px;
+}
+
+.rightprocess .textbox h5{
+  font-size:24px;
+  margin-bottom:20px;
+  }
+
+.rightprocess .imagebox {
+width: 10%;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.rightprocess .imagebox img {
+width: 100%;
+}
+
+.rightprocess ul{
+  list-style:none;
+}
+
+
+#Bookingsection {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  }
+
+.purple{
+margin-left: 22px;
+margin-bottom: 13px;
+width: 0;
+height: 50%;
+border-left: 4px dotted #FF6433;
+}
+
+#offersection {
+  background-color: #F2F2F2;
+  }
+
+.offerheader h2 {
+  font-size: 58px;
+  text-align: center;
+}
+.offerheader p {
+  margin-top: 60px;
+  font-size: 24px;
+  text-align: center
+}
+  
+.flexoffer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.serviceoffer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+margin-top: 40px;
+}
+
+#offersection .serviceoffer img {
+  width: 100%;
+  }
+.serviceoffer .servicerendered {
+  width: 24.5%;
+}
+.learn{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.learn a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  margin-bottom:30px;
+}
+
+
+#querysection {
+
+  background: url("https://res.cloudinary.com/muuba/image/upload/v1650470125/Image_1_l8sfa3.png") left no-repeat, url("https://res.cloudinary.com/muuba/image/upload/v1650470087/ovGrEUgrkyE_d8hnjt.png") right no-repeat;
+ min-height: 100vh;
+  background-size: 50%;
+  background-color:#F2F2F2;
+  position: relative;
+}
+
+.querycontainer {
+  display: flex;
+  justify-content: ;
+  margin-left: 235px;
+  align-items: center;
+  width: ;
+}
+
+ .querycontact {
+  background: #FF6433;
+  width: 65.8%;
+  height: auto;
+padding: 87.10px;
+  margin-top: 135px;
+  margin-right: 125px;
+   }
+
+.querycontact h3 {
+  font-size: 48px;
+  color: white;
+}
+
+.querycontact button {
+  padding: 14px;
+  border-radius: 9px;
+  border: none;
+  background: #1E1B1B;
+  color: white;
+  margin-top: 29px;
+}
+
+#querysection .experience {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+#querysection .experience p {
+  font-size: 24px;
+}
+
+#querysection .experienceimg {
+  
+}
+
+.brandheader{
+  display: flex;
+  justify-content: center;
+}
+.brandheader h3 {
+  font-size: 48px;
+  text-align: center;
+}
+.brandimagessection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brandimagessection .brandimages{
+  width: 20%;
+}
+
+.brandimagessection .brandimages img{
+  width: 100px;
+}
