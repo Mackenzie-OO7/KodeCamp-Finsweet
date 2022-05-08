@@ -47,6 +47,7 @@
     margin-right: 10px;
 }
 
+/*Section One*/
 .flex {
     display: flex;
 }
@@ -110,6 +111,7 @@
     color: #939191;
 }
 
+/*Section Two*/
 #quotesection {
     background: #E2E6E9;
 }
@@ -126,7 +128,7 @@
     margin-bottom: 20px;
 }
 
-#quotesection .left-section h2 {
+#quotesection .leftsection h2 {
     margin-bottom: 30px;
     font-size: 58px;
 }
@@ -149,12 +151,22 @@
   font-size: 24px;
 }
 
+#quotesection .leftsection .textbox a {
+  text-decoration: none;
+  color: black;
+}
+
 .arrow {
-  color: blue;
+  color: black;
 }
 
 #quotesection .rightformsection h3{
     font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#quotesection .rightformsection .inputbox {
+  width: 90%
 }
 
 #quotesection .rightformsection input {
@@ -168,6 +180,8 @@
  align-items: center; 
 }
 
+
+/*Section Three*/
 .flex1 {
 display: flex;
 justify-content: space-evenly;
@@ -233,60 +247,128 @@ height: 50%;
 border-left: 4px dotted #FF6433;
 }
 
-#offersection {
+/*Section Four*/
+.section-offer {
   background-color: #F2F2F2;
-  }
+}
 
-.offerheader h2 {
-  font-size: 58px;
+
+
+.section-offer h2 {
   text-align: center;
+  font-size: 48px;
+  padding-bottom: 50px;
 }
-.offerheader p {
-  margin-top: 60px;
+
+.section-offer h4 {
+  text-align: center;
   font-size: 24px;
-  text-align: center
+  font-weight: 400;
+  padding-top: 75px;
 }
+
+.flex-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column 4 4;
+  width: 80%;
+  margin: auto;
+}
+
+
+.flex-box {
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: 180px;
+  width: 180px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+
+.flex-box:hover {
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: 180px;
+  width: 180px;
+  text-align: center;
+  background-color: #FF6433;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.flex-box .flex-orange:hover:focus {
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  height: 180px;
+  width: 180px;
+  text-align: center;
+  background-color: #FF6433;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.flex-box p {
+  padding-top: 5px;
   
-.flexoffer {
-  margin-top: 25px;
+}
+
+.link-offer {
+  margin: auto;
+  width: 62%;
+  text-align: end;
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+
+.flex-box a {
+  text-decoration: none;
+  color: #000;
+}
+
+.link-offer a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  
+}
+
+/*Footer*/
+.brandheader{
   display: flex;
   justify-content: center;
 }
-
-.serviceoffer{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-width: 100%;
-margin-top: 40px;
+.brandheader h3 {
+  font-size: 48px;
+  text-align: center;
 }
-
-#offersection .serviceoffer img {
-  width: 100%;
-  }
-.serviceoffer .servicerendered {
-  width: 24.5%;
-}
-.learn{
+.brandimagessection {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
-.learn a {
-  text-decoration: none;
-  color: black;
-  margin-right: 10px;
-  margin-bottom:30px;
+.brandimagessection .brandimages{
+  width: 20%;
 }
 
+.brandimagessection .brandimages img{
+  width: 100px;
+}
+
+/*Section Five*/
 .flex-get-services {
   display: flex;
   
 }
 
 
-.flex-services-background .img1 {
+.flex-services-background .small-image {
   background-image: url(https://i.ibb.co/Z64HjXv/Image-1.png);
   display: flex;
   height: 50vh;
@@ -296,7 +378,7 @@ margin-top: 40px;
   height: 50vh;
 }
 
-.flex-services-background .img2 {
+.flex-services-background .large-image {
   background-image: url(https://i.ibb.co/7J7Hftp/2.png);
   display: flex;
   height: 50vh;
@@ -340,6 +422,7 @@ margin-top: 40px;
   font-weight: 600;
 }
 
+/*Section Six*/
 .section-experience {
   display: flex;
   background-color: #F2F2F2;
@@ -357,25 +440,4 @@ margin-top: 40px;
   padding: 20px 20px 29px;
   text-align: center;
   font-weight: 600 bold;
-}
-
-.brandheader{
-  display: flex;
-  justify-content: center;
-}
-.brandheader h3 {
-  font-size: 48px;
-  text-align: center;
-}
-.brandimagessection {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.brandimagessection .brandimages{
-  width: 20%;
-}
-
-.brandimagessection .brandimages img{
-  width: 100px;
 }
