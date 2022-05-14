@@ -629,6 +629,16 @@ border-left: 4px dotted #FF6433;
   .header{
     align-items: flex-start;
   }
+    
+   html, body {
+     max-width: 100%;
+     overflow-x: hidden;
+    }
+    
+    .container {
+      width: 100%;
+    }
+    
   .flex-direction {
     flex-direction: column;
   }
@@ -643,14 +653,14 @@ border-left: 4px dotted #FF6433;
     align-items: flex-start;
     display: none;
   }
+    
+    .rightside .navigation {
+    width: 100%;
+    border: none;
+  }
 
   .rightside .navigation ul {
     flex-direction: column;
-  }
-
-  .rightside .navigation {
-    width: 100%;
-    border: none;
   }
 
   .rightside ul li {
@@ -664,6 +674,11 @@ border-left: 4px dotted #FF6433;
 
 
 /*Section One*/
+    #herosection .flex {
+      flex-direction: column;
+    }
+    
+    
   #herosection .textsection {
     width: 100%;
     order: 2;
@@ -699,6 +714,10 @@ border-left: 4px dotted #FF6433;
 
 
   /*Section Two*/
+  #quotesection .flex {
+   flex-direction: column;
+  }
+    
   #quotesection .leftsection .textbox {
     width: 100%;
   }
@@ -706,29 +725,43 @@ border-left: 4px dotted #FF6433;
     width: 100%;
     font-size: 23px;
     text-align: center;
+    margin-left: 80px;
   }
   #quotesection .leftsection .textbox h5 {
     font-size: 20px;
+    margin-left: 100px;
   }
-  #quotesection .leftsection .textbox h5 p{
+  #quotesection .leftsection .textbox p{
     font-size: 14px;
+    margin-left: 100px;
   }
   #quotesection .leftsection .imagebox img {
     width: 100%;
     margin-top: 5px;
+    margin-left: 100px;
   }
 
   .rightformsection{
     margin-top: 20px;
     text-align: center;
+    margin-left: 80px;
   }
 
   #quotesection .rightformsection h3 {
     font-size: 23px;
+    margin-left: 5px;
   }
+    
+    #quotesection .rightformsection .textbox {
+     width: 200px;
+   }
   
 
   /*Section Three*/
+   #Bookingsection .flex1 {
+    flex-direction: column;
+   }
+    
   .leftprocess {
     width: 100%;
     text-align: center;
@@ -740,6 +773,7 @@ border-left: 4px dotted #FF6433;
 
   .leftprocess p{
     font-size: 14px;
+    margin-left: 50px;
   }
 
   .rightprocess {
@@ -769,6 +803,11 @@ border-left: 4px dotted #FF6433;
     width: 100%;
     font-size: 23px;
   }
+    
+   .flex-services {
+     flex-direction: column;
+    }
+    
   .flex-box {
     width: 140px;
     height: 140px;
@@ -946,6 +985,12 @@ border-left: 4px dotted #FF6433;
   .header{
     align-items: flex-start;
   }
+    
+  body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+  }  
+    
   .flex-direction {
     flex-direction: column;
   }
@@ -981,6 +1026,10 @@ border-left: 4px dotted #FF6433;
   }
 
   /*Section One*/
+   #herosection .flex {
+    flex-direction: column;
+   }
+    
   #herosection .imagesection{
       width: 100%;
       margin: auto;
@@ -1009,6 +1058,10 @@ border-left: 4px dotted #FF6433;
   }
 
   /*Section Two*/
+   #quotesection .flex {
+    flex-direction: column;
+  }
+    
   #quotesection .leftsection .textbox {
       width: 100%;
   }
@@ -1033,6 +1086,10 @@ border-left: 4px dotted #FF6433;
   }
 
    /*Section Three*/
+   #Bookingsection .flex1 {
+    flex-direction: column;
+   }
+    
    .leftprocess {
       width: 100%;
       text-align: center;
@@ -1063,6 +1120,11 @@ border-left: 4px dotted #FF6433;
       width: 100%;
       font-size: 38px;
   }
+  
+  .flex-services {
+    flex-direction: column;
+    }
+   
   .flex-box {
       height: 200px;
       width: 200px;
