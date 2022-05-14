@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Manrope', sans-serif;
-}
-    /* Navigation section */
+    /*Section One*/
 
 .flex{
     display: flex;
@@ -71,6 +68,49 @@ body{
 
 .road-assistance {
     padding: 10px 0;
+}
+
+@media screen and (min-width:769px){
+    /*Section One*/
+
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 5px;
+    }
+    .flex-direction{
+        flex-direction: row;
+    }
+    
+    .right-side{
+        display: unset;
+        display: flex;
+        flex-direction: row;
+        
+        width: unset;
+    }
+    
+    .right-side .navigation ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .right-side ul li {
+        margin-right: 20px;
+    }
+    .right-side .navigation {
+        border-right: 2px solid #ccc;
+        width: unset;
+    }
+    .road-assistance {
+        display: flex;
+        padding-left: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .road-assistance .icon {
+        margin-right: 10px;
+    }
 }
 
 /* Section Two */
@@ -138,6 +178,50 @@ body{
 
 .orange-btn:hover{
     background-color: #00D289;
+}
+
+@media screen and (min-width:450px){
+    #our-services{
+        padding-bottom: 5rem;
+    }
+    .our-services-container{
+        width: 80%;
+        margin:auto;
+    }
+    .our-services-img{
+        display: unset;
+        width: 44%;
+        max-height: 100%;
+    }
+    .our-services-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .our-services-article{
+        background: none;
+        min-height: unset;
+        width: 56%;
+        min-height: 30%;
+        background-color: black;
+    }
+    .our-service-text{
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+    .our-service-text h2{
+        font-size: 23px;
+    }
+}
+
+
+
+@media screen and (min-width:769px){
+.service-text {
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
 }
 
 
@@ -248,7 +332,35 @@ body{
 }
 
 
-/* Section Three */
+@media screen and (min-width:450px){
+.diagnostics-container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.diagnostics-article{
+    justify-content: space-between;
+}
+.auto-card{
+    width: 48%;
+    margin-bottom: 0;
+}
+.auto-card h2{
+    font-size: 30px;
+}
+.auto-card p{
+    font-size: 16px;
+}
+.diagnostics-flexbox{
+    width: 48%;
+}
+.flex-box{
+    height: 145px;
+    margin-bottom: 0.5rem;
+  }
+}
+
+
+/*Section Four*/
 
 .process-container{
     width: 90%;
@@ -319,10 +431,23 @@ body{
     height: 100%;
 }
 
+@media screen and (min-width:450px){
+    .process-container {
+        padding-top: 3rem;
+    }
+    .process-article {
+        justify-content: space-between;
+    }
+    .process-left-side {
+        width: 48%;
+    }
+    .process-right-side{
+        width: 48%;
+    }
+}
 
 
-
-/* Section Four*/
+/*Section Five*/
 
 .diagnose-content{
     margin-bottom: 5rem;
@@ -343,8 +468,55 @@ body{
     min-height: 40vh;
 }
 
+@media screen and (min-width:450px){
+    .diagnose-content{
+        width:90%;
+        justify-content: space-between;
+        margin: auto;
+        padding: 3rem 0 3rem;
+    }
+    .diagnose-left{
+        display:unset;
+        display: flex;
+        width: 48%;
+        justify-content: space-between;
+    }
+    .diagnose-img1{
+        max-width: 48%;
+        height: 100%;
+    }
+    .diagnose-img1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .diagnose-img2{
+        max-width: 48%;
+        height: 100%;
+    }
+    .diagnose-img2 img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .diagnose-right{
+        background: none;
+        min-height: unset;
+        background-size: unset;
+        width: 48%;
+    }
+    .service-text h2{
+        color: black;
+        font-size: 23px;
+    }
+    .diagnose-right .service-text p{
+        color: #232536;
+        opacity: 0.6;
+        font-size: 16px;
+    }
+}
 
-/* footer One */
+
+/*Footer One*/
 
 .footer-one{
     background: #1E1B1B;
@@ -408,13 +580,13 @@ body{
 
 
 
-/* Footer Two */
+/* Footer Two*/
 .footer-two{
     padding:5% 0;
     background-color: black;
 }
 
-.container-two{
+.second-container{
     width: 80%;
     margin: auto;
     justify-content: space-between;
